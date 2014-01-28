@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bildundtext</title>
+    
+          <!-- Wichtig! Damit Sonderzeichen nicht kaputt gehen (Unicode) -->
+    <meta charset="utf-8">
+    
+    <!-- komisches apple zeug: mache die seite so breit wie das iPhone/iPad�
+(weniger zoomen)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <link href="style.css"
+rel="stylesheet">
+      
+    <script 
+    src="http://code.jquery.com/jquery-
+    1.10.2.min.js"></script>
+    <script src="script.js">
+    </script>
+      
+<style type="text/css">
+body { background-color:#fff;
+       margin-left:100px; }
+    
+* { color:black;font-family:'Helvetica';'Courier';'sans-serif'; 'Arial'; }
+    
+h1,hd { font-size:90%;
+       font-family:'Helvetica';'Courier';'sans-serif'; 'Arial';
+    letter-spacing:0.05em}
+
+p,td,table { font-size:80%;
+        line-height:140%;
+        font-family:'Helvetica';'Courier';'sans-serif'; 'Arial';
+        text-align:center;  
+        letter-spacing:0.05em;
+        word-spacing:0.3em; }
+   </style>
+  </head>
+  
+<!--
+hier der eigentliche inhalt der seite:
+-->
+<body>
+    
+    <table border="0">
+  <colgroup width="100" span="5"></colgroup>
+    <tr><td><img    src="C:\Users\melse\Desktop\klt\kleinePage\leeres100x100px.jpg"></td></tr>
+    <tr> 
+    <td></td>
+    <td><img  src="C:\Users\melse\Desktop\klt\kleinePage\butter100x100.jpg"></td>
+     </tr>
+        
+    <tr>
+    <td><a href="http://google.de"><img  src="C:\Users\melse\Desktop\klt\kleinePage\fellchen100x100px.jpg"></a></td>
+    <td><p>2013/14</p>
+    </td>
+    <td><img  src="C:\Users\melse\Desktop\klt\kleinePage\angiNagel100x100.jpg"></td>
+    </tr>
+        
+    <tr>
+    <td></td>
+    <td ><a href="http://google.de"><img  src="C:\Users\melse\Desktop\klt\kleinePage\einfacheForm.jpg"></a>
+    </td>
+    </tr>   
+    
+    <tr>
+    <td>
+    <img  src="C:\Users\melse\Desktop\klt\kleinePage\leeres100x100px.jpg"></a></td>
+     </tr>
+       
+  <!-- usw. andere Zeilen der Tabelle -->
+</table>
+
+
+ <p><a href="mailto:holstein@bildundtext.org">bildundtext
+</a></p>   
+                                            
+  </body>
+  
+</html>
